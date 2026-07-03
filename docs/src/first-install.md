@@ -134,10 +134,12 @@ The following command shows how to do that with bash, but it can be adapted to a
 ```bash
 echo "alias exegol='sudo -E $(echo ~/.local/bin/exegol)'" >> ~/.bash_aliases && source ~/.bash_aliases
 ```
+Note: on Ubuntu 26 and above, `sudo` has been replaced with `sudo-rs`. For now, we suggest using the legacy sudo through the `sudo.ws` command. 
 === Linux (zsh)
 ```zsh
 echo "alias exegol='sudo -E $(echo ~/.local/bin/exegol)'" >> ~/.zshrc && source ~/.zshrc
 ```
+Note: on Ubuntu 26 and above, `sudo` has been replaced with `sudo-rs`. For now, we suggest using the legacy sudo through the `sudo.ws` command. 
 === macOS & Windows
 When using Docker Desktop, you **don't** need to use `sudo`. You can skip this step and follow the next one.
 :::
