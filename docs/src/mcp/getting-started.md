@@ -29,10 +29,12 @@ The MCP server requires sufficient privileges to interact with Docker. You must 
 ```bash
 echo "alias exegol-mcp='sudo -E $(echo ~/.local/bin/exegol-mcp)'" >> ~/.bash_aliases && source ~/.bash_aliases
 ```
+Note: on Ubuntu 26 and above, `sudo` has been replaced with `sudo-rs`. For now, we suggest using the legacy sudo through the `sudo.ws` command. 
 === Linux (zsh)
 ```zsh
 echo "alias exegol-mcp='sudo -E $(echo ~/.local/bin/exegol-mcp)'" >> ~/.zshrc && source ~/.zshrc
 ```
+Note: on Ubuntu 26 and above, `sudo` has been replaced with `sudo-rs`. For now, we suggest using the legacy sudo through the `sudo.ws` command. 
 === macOS & Windows
 When using Docker Desktop, you **don't** need to use `sudo`. You can skip this step and follow the next one.
 :::
