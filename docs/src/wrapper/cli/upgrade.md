@@ -23,7 +23,7 @@ The following data will migrate to the new upgraded container:
 - The container `/workspace` directory
 - The **Zsh**, **Bash** and **python3** command history
 - (From Exegol images `3.1.8`) The exegol-history database
-- The **NetExec** and **Responder** database and configuration files
+- The **NetExec**, **Responder** and **Firefox** database and configuration files
 - The [TriliumNext](https://github.com/TriliumNext/Trilium) notes database
 - The **Hashcat** and **John** "potfiles"
 - The following files:
